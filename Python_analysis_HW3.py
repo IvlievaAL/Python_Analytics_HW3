@@ -101,5 +101,5 @@ pd.set_option('display.max_columns', None)
 
 # 3.5 Постройте таблицу с подсчетом медианной стоимости домов в данных в зависимости от состояния дома и оценки дома
 
-desc5 = df.pivot_table(index = "condition", columns = "grade", values = "price", aggfunc = "median", fill_value = 0)
-print(desc5)
+# desc5 = df.pivot_table(index = "condition", columns = "grade", values = "price", aggfunc = "median", fill_value = 0)
+# print(desc5)
